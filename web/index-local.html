@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Very Fine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--  <link href="https://fonts.googleapis.com/css2?family=Molle&display=swap" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:wght@300;400;700&family=Molle&family=Work+Sans&display=swap" rel="stylesheet">
+
+
+  <style>
+    body {
+      margin: 0 30px;
+      color: #333;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+    }
+    .siteWrapper {
+      margin: 50px auto;
+      max-width: 1000px;
+    }
+    header {
+      background-color: #fff;
+      color: #1a47b8;
+      padding: 30px 20px 30px 0;
+      /*border-top: 3px solid;*/
+    }
+    h1 {
+      font-family: Molle, serif;
+      font-size: 24px;
+      color: #1a47b8;
+      margin: 0;
+    }
+    h1 span:nth-child(1),
+    h1 span:nth-child(5) {
+      letter-spacing: -.1em;
+    }
+    h2 {
+      /*font-family: 'Work Sans', sans-serif;*/
+      font-family: 'Lato', serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #1a47b8;
+      margin: 0 0 40px;
+    }
+    a, a:hover,a:visited {
+      color: #1a47b8;
+      font-size: 18px;
+    }
+    p {
+      line-height: 1.5em;
+      color: #333;
+    }
+    .price {
+      font-size: 24px;
+      color: #1a47b8;
+      font-weight: 700;
+    }
+    main {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+    ul {
+      margin: 30px 0 50px;
+      padding-left: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+      color: #333;
+    }
+    section {
+      width: 100%;
+      padding: 30px 0 40px 0;
+      margin: 0 0 80px 0;
+      /*border-top: 3px solid #1a47b8;*/
+      /*border-bottom: 3px solid #1a47b8;*/
+    }
+    @media screen and ( min-width: 640px ) {
+      main {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      section {
+        width: 45%;
+      }
+    }
+    .dotRow {
+      display: flex;
+      margin: 0 0 10px;
+    }
+    .dot {
+      cursor: pointer;
+      width: 10px;
+      height: 10px;
+      border-radius: 18px;
+      border: 3px solid #1a47b8;
+      margin-right: 5px;
+      transition: background-color 100ms, border-bottom-color 100ms, border-top-color 100ms, border-right-color 100ms, border-left-color 100ms;
+      background-color: transparent;
+    }
+    .dot.fill {
+      background-color: #1a47b8;
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      margin: 0 0 10px 0;
+    }
+    .logo svg path {
+      /*fill: #1a47b8;*/
+    }
+    .special {
+      font-family: 'Arvo';
+      font-weight: 700;
+      margin: 10px 0 0;
+      font-size: 31px;
+      line-height: 1.3em;
+      color: #1a47b8;
+    }
+    .special-sub {
+      color: #1a47b8;
+      margin: 5px 0 40px;
+      font-family: 'Arvo';
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .leader {
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 28px;
+    }
+    pre {
+      background-color: #f8f8f8;
+      font-family: Roboto Mono,Monaco,courier,monospace;
+      padding: 0 1.4em;
+    }
+    pre code {
+      -webkit-font-smoothing: initial;
+      background-color: #f8f8f8;
+      border-radius: 2px;
+      color: #525252;
+      display: block;
+      font-family: Roboto Mono,Monaco,courier,monospace;
+      font-size: .8rem;
+      line-height: inherit;
+      margin: 0 2px;
+      max-width: inherit;
+      overflow: inherit;
+      padding: 2.2em 5px;
+      white-space: inherit;
+    }
+    .snapshot {
+      width: 100%;
+      margin: 0 0 30px;
+    }
+    .snapshot img {
+      max-width: 100%;
+      /*filter: saturate(0);*/
+    }
+    .snapshot:hover img {
+      filter: saturate(100%);
+    }
+  </style>
+</head>
+<body>
+<div class="siteWrapper">
+  <header>
+    <h1><span>V</span><span>e</span><span>r</span><span>y</span> <span>F</span>ine</h1>
+  </header>
+<!--  <p>plugins for the <a href="https://craftcms.com/" target="_blank">Craft CMS</a></p>-->
+  <main>
+    <section>
+      <div class="snapshot">
+        <img src="assets/img/editables-screen-cap-1.png" alt="">
+      </div>
+      <div class="name">
+        <!--        <div class="logo">-->
+        <!--          <svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+        <!--               x="0px" y="0px" viewBox="0 0 92.7 94" xml:space="preserve" >-->
+        <!--  <polyline fill="none" stroke="#254AB5" stroke-width="3" stroke-miterlimit="10" points="42.8,77.4 48.8,71.5 54.7,77.6 "/>-->
+        <!--            <path fill="none" stroke="#254AB5" stroke-width="3" stroke-miterlimit="10" d="M64.5,42.4c-1.6,7.3-7.8,13-15.7,13.5-->
+        <!--    c-9.4,0.6-17.5-6.6-18.1-16s6.6-17.5,16-18.1c7.4-0.4,14,3.9,16.7,10.3l-23.3,10"/>-->
+        <!--  </svg>-->
+
+        <!--        </div>-->
+        <h2>Editables</h2>
+      </div>
+      <div class="dotRow">
+        <div class="dot fill"></div>
+        <div class="dot"></div>
+        <div class="dot fill"></div>
+        <div class="dot"></div>
+        <div class="dot fill"></div>
+      </div>
+      <p class="special">Front-end editing for Craft CMS</p>
+      <p class="leader">Easily convert fields so they can be edited on the front end of your site.</p>
+      <!--      <ul>-->
+      <!--        <li>Easy, user-friendly interface</li>-->
+      <!--        <li>No need to login to the Craft CP for simple edits. Login from the frontend, edit, save&#45;&#45;done.</li>-->
+      <!--        <li>Easily integrated into existing sites</li>-->
+      <!--        <li>Simple setup</li>-->
+      <!--        <li>Works with most native fields, plus Redactor</li>-->
+      <!--        <li>Extendable to 3rd-party fields</li>-->
+      <!--        <li>More...</li>-->
+      <!--      </ul>-->
+<!--      <p>Editables enables simple to setup frontend editing for Craft. Most native fields supports, plus Redactor and more.</p>-->
+<!--      <p>Try it out. Edit a friendly message for the next visitor to this page.</p>-->
+      <p class="price">$79</p>
+      <p><a href="">Learn More</a></p>
+      <p><a href="">Documentation</a></p>
+      <p><a href="">Install / Try / Buy in the Craft plugin store</a></p>
+      <pre><code>composer require veyfinework/editables</code></pre>
+    </section>
+    <section>
+<!--      <div class="logo">-->
+<!--        <svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"-->
+<!--             x="0px" y="0px" viewBox="0 0 92.7 94" xml:space="preserve">-->
+<!--<polyline fill="none" stroke="#254AB5" stroke-width="1.337" stroke-miterlimit="10" points="11.7,79.5 11.7,84.9 83.3,85-->
+<!--	83.4,72.7 "/>-->
+<!--          <polyline fill="none" stroke="#254AB5" stroke-width="1.337" stroke-miterlimit="10" points="75.6,73.6 69.5,79.5 63.7,73.4 "/>-->
+<!--          <polyline fill="none" stroke="#254AB5" stroke-width="1.337" stroke-miterlimit="10" points="11.7,62 11.7,67.4 83.3,67.5-->
+<!--	83.4,55.2 "/>-->
+<!--          <polyline fill="none" stroke="#254AB5" stroke-width="1.337" stroke-miterlimit="10" points="75.6,56.1 69.5,62 63.7,55.9 "/>-->
+<!--          <path fill="none" stroke="#254AB5" stroke-width="1.337" stroke-miterlimit="10" d="M35.5,39.9c4.2,5.9,12,8.5,19.2,5.9-->
+<!--	c6.7-2.5,10.9-8.9,10.9-15.6v0l-33.2,0.2c0-6.8,4.1-13.2,10.9-15.7c7.1-2.6,14.9,0,19.2,5.9"/>-->
+<!--</svg>-->
+
+<!--      </div>-->
+      <div class="snapshot">
+        <img src="assets/img/superdropdown-screen-cap-1.png" alt="">
+      </div>
+      <h2>Super Dropdown</h2>
+      <div class="dotRow">
+        <div class="dot"></div>
+        <div class="dot fill"></div>
+        <div class="dot"></div>
+        <div class="dot fill"></div>
+        <div class="dot"></div>
+      </div>
+      <p class="special">Dropdowns in multiples, series & hierarchies</p>
+      <p class="special-sub">from Categories, Entries, Twig templates, or data</p>
+      <p class="leader">Create complex, linked dropdown fields...</p>
+      <p class="price">$10</p>
+      <p><a href="">Learn More</a></p>
+      <p><a href="">Documentation</a></p>
+      <p><a href="">Install / Try / Buy in the Craft plugin store</a></p>
+      <pre><code>composer require veyfinework/super-dropdown</code></pre>
+    </section>
+  </main>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
