@@ -32,8 +32,9 @@ set('application', 'Very Fine Site');
 set('default_stage', 'stage');
 
 // The list of directories to be deleted after git pull
-set('clear_paths', [
-
+set('remove_items', [
+    'web/test',
+    'web/index-local.html'
 ]);
 
 // The list of directories to be synced
@@ -45,8 +46,8 @@ set('sync_items', [
 desc('Deploy the site');
 task('deploy', [
     'deploy:info', // echo info block
-    'git:pull',
-    'deploy:clear_paths', // delete specified dirs
+    'git:run', // clone or pull
+    'file:remove', // delete specified items
     'sync:up', // choose non version controlled files & dirs to upload
     'success' // echo success
 ]);
