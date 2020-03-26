@@ -2,4 +2,3 @@ composer.phar
 /vendor/
 
 deploy.yml
-/web/test/
